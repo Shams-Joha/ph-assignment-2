@@ -362,6 +362,7 @@ main {
 .meet-our-team{
     max-width: 1060px ;
     margin: 0 auto;
+
     
 }
 .meet-our-team > h2{
@@ -380,7 +381,26 @@ main {
     border-radius: 15px;
     
 }
-
-
-
 /* --------------------Meet our Team Design Ends---------------------------- */
+
+/* -----------------Footer Design Begins------------------------------------- */
+.start-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+.start-title{
+    color: rgb(230, 83, 60);
+    font-size: 3.5rem;
+    font-style: italic;
+
+}
+.footer-container{
+    background: rgba(8, 8, 8, 0.1);
+    height: 800px;
+}
+.foot-note{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+/* -----------------Footer Design Ends------------------------------------- */
