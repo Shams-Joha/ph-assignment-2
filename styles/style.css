@@ -49,7 +49,7 @@ main {
     gap: 60px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 35px;
-    padding: 12px 8px;
+    padding: 12px 4.5px;
 }
 
 .list-item {
@@ -71,6 +71,7 @@ main {
     background-color: rgb(230, 83, 60);
     border-radius: 30px;
     font-weight: 600;
+    margin-left: 0px;
 
 }
 
@@ -223,35 +224,38 @@ main {
 /* ----------------------Habit Style Begins--------------------------------- */
 
 .habit-title {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     color: white;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-weight: 900;
 }
 
 .habit-d {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    margin-bottom: 4rem;
+    padding-bottom: 6rem;
 }
 
 .cont-img {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
 }
 
 .cont-h {
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
 
 }
 
 .card-d {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.9rem;
-    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    margin-bottom: 6rem;
+    text-align: center;
 }
 
 .card-container {
@@ -276,30 +280,29 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    border-radius: 18px;
+    border-radius: 20px;
     background: rgb(34, 34, 34);
-    padding: 40px;
+    padding: 4.4rem;
     margin-left: 190px;
     margin-right: 190px;
-
-
 }
 
 .text-left {
-    max-width: 30%;
+    max-width: 50%;
 }
 
 .run-title {
     max-width: 100%;
-    font-size: 3rem;
+    font-size: 4.5rem;
     color: white;
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 25px;
 }
 
 .run-d {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
     max-width: 100%;
     margin-bottom: 45px;
 
@@ -308,11 +311,12 @@ main {
 
 
 .background {
-    width: 400px;
-    height: 300px;
-    background-image: url(../images/run.jpg);
-    background-size: cover;
-    background-position: center;
+    width: 550px;
+    height: 420px;
+}
+.runner{
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -394,7 +398,7 @@ main {
 /* -----------------Footer Design Begins------------------------------------- */
 .start-des {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .start-div {
@@ -403,9 +407,10 @@ main {
 
 .start-title {
     color: rgb(230, 83, 60);
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-style: italic;
     margin-bottom: 2rem;
+    font-weight: 900;
 
 }
 
@@ -416,23 +421,24 @@ main {
 
 .foot-note {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
+    font-size: 1.3rem;
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 2rem;
+    line-height: 1.3rem;
     
 }
 
 .middle-links {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
 .middle-title {
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 3rem;
 }
 
@@ -446,7 +452,7 @@ hr {
 
 .parent-div {
     
-    max-width: 55%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
