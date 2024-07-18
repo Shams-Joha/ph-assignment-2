@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-html,
 body {
     background-color: rgb(31, 31, 31);
     height: 100%;
@@ -323,84 +322,143 @@ main {
 
 /* --------------------Meet our Team Design Starts---------------------------- */
 .card-name {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: white;
-    font-weight: 600;
+    font-weight: 800;
     position: absolute;
     top: 75%;
     left: 5%;
 }
 
 .job-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 85%;
     left: 5%;
 }
-.row1, .row2{
+
+.row1,
+.row2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
 }
-.row1{
+
+.row1 {
     margin-bottom: 2rem;
 }
-.card{
+
+.card {
     width: 100%;
-    height: 17rem;
+    height: 25rem;
     position: relative;
-    
+
 }
-.team-image{
+
+.team-image {
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 15px;
     filter: brightness(80%);
 }
 
-.meet-our-team{
-    max-width: 1060px ;
+.meet-our-team {
+    max-width: 80%;
     margin: 0 auto;
-
-    
+    padding-bottom: 5rem;
 }
-.meet-our-team > h2{
+
+.meet-our-team>h2 {
+    font-size: 4.5rem;
     text-align: center;
     margin-top: 4rem;
 }
-.meet-our-team > p{
+
+.meet-our-team>p {
     max-width: 50%;
+    font-size: 1.5rem;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
-.team-container{
+
+.team-container {
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    
+    border-radius: 20px;
 }
+
 /* --------------------Meet our Team Design Ends---------------------------- */
 
 /* -----------------Footer Design Begins------------------------------------- */
-.start-des{
+.start-des {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
 }
-.start-title{
+
+.start-div {
+    width: 40%;
+}
+
+.start-title {
     color: rgb(230, 83, 60);
     font-size: 3.5rem;
     font-style: italic;
+    margin-bottom: 2rem;
 
 }
-.footer-container{
+
+.footer-container {
     background: rgba(8, 8, 8, 0.1);
-    height: 800px;
+    
 }
-.foot-note{
+
+.foot-note {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
     margin-bottom: 2rem;
+    
 }
+
+.middle-links {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.middle-title {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+hr {
+    width: 80%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-bottom: 2.1rem;
+
+}
+
+.parent-div {
+    
+    max-width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+.middle-list{
+    list-style: none;
+}
+.middle-list li{
+    margin-bottom: 1.5rem;
+}
+
+
 /* -----------------Footer Design Ends------------------------------------- */
