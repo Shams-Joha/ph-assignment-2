@@ -396,19 +396,19 @@ td, th{
     margin-bottom: 40px;
 }
 .chart{
-    border: 1px solid yellow;
     width: 25%;
 }
 input, select{
     background-color: rgba(255, 255, 255, 0.158);
     border: 0;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    padding: 0 1.25rem;
 }
 .bmi-form{
     width: 100%;
-    border: 1px solid yellow;
 }
 .calc{
-    border: 1px solid palevioletred;
     width: 40%;
 }
 .r1, .r2{
@@ -429,12 +429,21 @@ input::placeholder{
 input:focus{
     outline: none;
 }
-input, select{
-    height: 3.5rem;
-    border-radius: 0.5rem;
-    padding-left: 1.25rem;
+
+select{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+select option{
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 255, 213, 0.384);
+    color: darkblue;
+    font-weight: bold;
 }
 
+select:hover{
+    cursor: pointer;
+}
 
 
 
