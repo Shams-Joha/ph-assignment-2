@@ -314,7 +314,8 @@ main {
     width: 550px;
     height: 420px;
 }
-.runner{
+
+.runner {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -323,6 +324,124 @@ main {
 
 
 /* ------------------ ----Run Extra Mile Design Ends--------------------------*/
+
+/* -----------------------BMI Style Starts--------------------------------- */
+/* Banner Style Starts */
+.bmi-banner {
+    width: 80%;
+    height: 400px;
+    font-family: inter;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-ban-con{
+    margin-right: 19rem;
+}
+
+.bmi-banner-title {
+    font-size: 4.3rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.bmi-banner-d {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+/* Banner Style Ends */
+
+.challenge{
+    background: rgb(34, 34, 34);
+    font-family: inter;
+    height: 550px;
+}
+.bmi-title{
+    color: white;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.bmi-table th{
+    color: white;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+.bmi-table{
+    width: 100%;
+    height: 14rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 50px;
+    
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+}
+.bmi-calc{
+    display: flex;
+    justify-content: space-around;
+}
+.bmi-d{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+.chart{
+    border: 1px solid yellow;
+    width: 25%;
+}
+input, select{
+    background-color: rgba(255, 255, 255, 0.158);
+    border: 0;
+}
+.bmi-form{
+    width: 100%;
+    border: 1px solid yellow;
+}
+.calc{
+    border: 1px solid palevioletred;
+    width: 40%;
+}
+.r1, .r2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.r3{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+}
+input, select{
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1.25rem;
+}
+
+
+
+
+
+
+
+/* -----------------------BMI Style Ends--------------------------------- */
 
 /* --------------------Meet our Team Design Starts---------------------------- */
 .card-name {
@@ -416,7 +535,7 @@ main {
 
 .footer-container {
     background: rgba(8, 8, 8, 0.1);
-    
+
 }
 
 .foot-note {
@@ -427,7 +546,7 @@ main {
     text-align: center;
     margin-bottom: 2rem;
     line-height: 1.3rem;
-    
+
 }
 
 .middle-links {
@@ -451,7 +570,7 @@ hr {
 }
 
 .parent-div {
-    
+
     max-width: 80%;
     margin: 0 auto;
     display: flex;
@@ -459,10 +578,12 @@ hr {
     padding-top: 3rem;
     margin-bottom: 4rem;
 }
-.middle-list{
+
+.middle-list {
     list-style: none;
 }
-.middle-list li{
+
+.middle-list li {
     margin-bottom: 1.5rem;
 }
 
