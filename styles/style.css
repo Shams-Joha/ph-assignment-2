@@ -144,6 +144,13 @@ main {
     font-weight: 500;
 }
 
+.btn-join:hover{
+    cursor: pointer;
+}
+.btn-down:hover{
+    cursor: pointer;
+}
+
 .body-builder {
     display: block;
     max-width: 100%;
@@ -446,11 +453,170 @@ select:hover{
 }
 
 
-
-
-
-
 /* -----------------------BMI Style Ends--------------------------------- */
+
+/* --------------------Challenge-2 Section Design Starts------------------------- */
+.challenge-2{
+    background-image: url(../images/gymback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: inter;
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.ch-2-title{
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    
+}
+.ch-2-des{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    padding-left: 1.3rem;
+}
+#offer{
+    color: greenyellow;
+    font-weight: bold;
+}
+#plan-list{
+    padding-left: 2rem;
+}
+
+.silver, .gold, .diamond, .platinum{
+    background: rgba(135, 255, 193, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px rgb(61, 24, 40);
+    transition: 1s;
+}
+.gold, .diamond, .platinum{
+    background: rgba(255, 255, 255, 0.1);
+}
+.gold:hover{
+    box-shadow: 0 18px 40px goldenrod;
+}
+.silver:hover{
+    box-shadow: 0 18px 40px rgba(82, 212, 82, 0.911);
+}
+.diamond:hover{
+    box-shadow: 0 18px 40px rgba(39, 190, 240, 0.904);
+}
+.platinum:hover{
+    box-shadow: 0 18px 40px rgba(229, 228, 226, 0.911);
+}
+
+.plan-t{
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+.plan-d{
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+#plan-list{
+    color: white;
+    list-style-type:circle;
+    margin-bottom: 1rem;
+    
+}
+.p-list-content{
+    line-height: 2rem;
+}
+.plan-price{
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+.plan-btn1{
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(135, 255, 193);
+    width: 100%;
+    padding: 16px 6px;
+    border: 0;
+    border-radius: 30px;
+}
+.plan-btn3{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    padding: 13px 3px;
+    border: 0;
+    border-radius: 30px;
+    border: 3px solid white;
+}
+.plan-btn1:hover{
+    cursor: pointer;
+}
+.plan-btn3:hover{
+    cursor: pointer;
+}
+
+
+
+
+.ch-plan-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- ----------Challenge-2 Section Design Ends------------------------- */
 
 /* --------------------Meet our Team Design Starts---------------------------- */
 .card-name {
