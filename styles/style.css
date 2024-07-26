@@ -373,7 +373,6 @@ main {
 .challenge {
     background: rgb(34, 34, 34);
     font-family: inter;
-    height: 550px;
 }
 
 .bmi-title {
@@ -411,6 +410,9 @@ th {
 .bmi-calc {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 3rem;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .bmi-d {
@@ -793,8 +795,7 @@ hr {
 
     .challenge-2,
     .meet-our-team,
-    .footer-container,
-    .challenge {
+    .footer-container {
         display: none;
     }
 
@@ -946,7 +947,6 @@ hr {
         margin-bottom: 2rem;
     }
 
-}
 
 /* -------------------Run an Extra Mile sec Ends--------------------- */
 
@@ -956,7 +956,8 @@ hr {
     font-size: 2rem;
 }
 .bmi-banner-d{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
 }
 .bmi-banner{
     margin: 0 auto;
@@ -966,36 +967,41 @@ hr {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+/* ------------------------BMI Heading Section Ends------------------------ */
 
+/* -------------------Bmi Calc section starts------------------------ */
 
-
-
-/* .bmi-banner {
-    width: 80%;
-    height: 400px;
-    font-family: inter;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bmi-calc{
+    flex-direction: column;
 }
-
-.bmi-ban-con {
-    margin-right: 19rem;
+.chart{
+    width: 100%;
 }
-
-.bmi-banner-title {
-    font-size: 4.3rem;
-    color: white;
-    font-weight: 900;
-    margin-bottom: 1.5rem;
+.calc{
+    width: 100%;
 }
-
-.bmi-banner-d {
-    color: rgba(255, 255, 255, 0.5);
+.r1, .r2{
+    width: 100%;
+    grid-template-columns: repeat(2, 48%);
+    gap: 0.9rem;
+}
+.bmi-title{
     font-size: 1.2rem;
-    line-height: 2rem;
 }
+.bmi-d{
+    font-size: 0.9rem;
+}
+.submit-button{
+    width: 60%;
+}
+
+
+/* -------------------Bmi Calc section Ends------------------------ */
+
+
+
+
+/* 
 
 
 .challenge {
@@ -1105,7 +1111,7 @@ select option {
 
  */
 
-/* ------------------------BMI Heading Section Ends------------------------ */
+
 
 
 
@@ -1114,3 +1120,4 @@ select option {
 
 
 /* Responsive Design Ends--------------------------- */
+}
