@@ -298,12 +298,12 @@ main {
     border-radius: 20px;
     background: rgb(34, 34, 34);
     padding: 4.4rem;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .text-left {
-    max-width: 50%;
+    width: 50%;
 }
 
 .run-title {
@@ -318,7 +318,7 @@ main {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.2rem;
     line-height: 2rem;
-    max-width: 100%;
+    max-width: 80%;
     margin-bottom: 45px;
 
 }
@@ -326,8 +326,8 @@ main {
 
 
 .background {
-    width: 550px;
-    height: 420px;
+    width: 40%;
+    height: auto;
 }
 
 .runner {
@@ -796,7 +796,6 @@ hr {
     .meet-our-team,
     .footer-container,
     .challenge,
-    .run-extra-mile,
     .bmi-banner {
         display: none;
     }
@@ -893,32 +892,60 @@ hr {
 
 
     /* ----------------Habit section responsive Starts------------------- */
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
     }
-    .habit-title{
+
+    .habit-title {
         font-size: 2rem;
         padding-bottom: 1rem;
     }
-    .habit-container{
+
+    .habit-container {
         padding-top: 0px;
     }
-    .habit-d{
+
+    .habit-d {
         font-size: 1rem;
         padding-bottom: 4rem;
     }
-    .card-d{
+
+    .card-d {
         margin-bottom: 3rem;
         font-size: 1rem;
     }
 
-
     /* ----------------Habit section responsive Ends------------------- */
 
-}
+    .run-extra-mile{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .text-left{
+        width: 100%;
+    }
+    .background{
+        width: 100%;
+    }
+    .run-title{
+        font-size: 2rem;
+    }
+    .run-d{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .run-button{
+        margin-bottom: 2rem;
+    }
 
+    }
 
+    /* -------------------Run an Extra Mile sec Ends--------------------- */
 
 
 
