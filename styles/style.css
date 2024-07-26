@@ -792,7 +792,6 @@ hr {
 
 @media screen and (max-width:576px) {
 
-    .meet-our-team,
     .footer-container {
         display: none;
     }
@@ -1010,6 +1009,23 @@ hr {
 }
 /* ----------------------Membership Challenge Sec Ends---------------- */
 
+/* ---------------Meet Our team section Starts---------------- */
+
+.row1, .row2{
+    grid-template-columns: 1fr;
+}
+#team-title{
+font-size: 2rem;
+}
+#team-des{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    width: 100%;
+
+}
+
+
+/* ---------------Meet Our team section Ends---------------- */
 
 
 
