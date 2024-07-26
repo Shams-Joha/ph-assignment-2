@@ -788,13 +788,11 @@ hr {
 
 /* -----------------Footer Design Ends------------------------------------- */
 
-/* ------##############------Responsive Design Starts------------###############--------------- */
+
+/* ------------Responsive Design Starts------------------------- */
 
 @media screen and (max-width:576px) {
 
-    .footer-container {
-        display: none;
-    }
 
     /*--------------------Nav & Banner Responsive Start---------------- */
     .nav-links-container {
@@ -945,89 +943,144 @@ hr {
     }
 
 
-/* -------------------Run an Extra Mile sec Ends--------------------- */
+    /* -------------------Run an Extra Mile sec Ends--------------------- */
 
-/* ------------------------BMI Heading Section Starts------------------------ */
+    /* ------------------------BMI Heading Section Starts------------------------ */
 
-.bmi-banner-title{
-    font-size: 2rem;
-}
-.bmi-banner-d{
-    font-size: 0.9rem;
-    line-height: 1rem;
-}
-.bmi-banner{
-    margin: 0 auto;
-}
-.bmi-ban-con{
-    margin: 0 auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-/* ------------------------BMI Heading Section Ends------------------------ */
+    .bmi-banner-title {
+        font-size: 2rem;
+    }
 
-/* -------------------Bmi Calc section starts------------------------ */
+    .bmi-banner-d {
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
 
-.bmi-calc{
-    flex-direction: column;
-}
-.chart{
-    width: 100%;
-}
-.calc{
-    width: 100%;
-}
-.r1, .r2{
-    width: 100%;
-    grid-template-columns: repeat(2, 48%);
-    gap: 0.9rem;
-}
-.bmi-title{
-    font-size: 1.2rem;
-}
-.bmi-d{
-    font-size: 0.9rem;
-}
-.submit-button{
-    width: 60%;
-}
+    .bmi-banner {
+        margin: 0 auto;
+    }
 
+    .bmi-ban-con {
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 
-/* -------------------Bmi Calc section Ends------------------------ */
+    /* ------------------------BMI Heading Section Ends------------------------ */
 
-/* ----------------------Membership Challenge Sec starts---------------- */
+    /* -------------------Bmi Calc section starts------------------------ */
 
-.ch-plan-container{
-    display: flex;
-    flex-direction: column;
-}
-.ch-2-title{
-    font-size: 2.5rem;
-}
-.plan-btn1, .plan-btn3{
-    font-size: 0.8rem;
-}
-/* ----------------------Membership Challenge Sec Ends---------------- */
+    .bmi-calc {
+        flex-direction: column;
+    }
 
-/* ---------------Meet Our team section Starts---------------- */
+    .chart {
+        width: 100%;
+    }
 
-.row1, .row2{
-    grid-template-columns: 1fr;
-}
-#team-title{
-font-size: 2rem;
-}
-#team-des{
-    font-size: 0.8rem;
-    line-height: 1rem;
-    width: 100%;
+    .calc {
+        width: 100%;
+    }
 
-}
+    .r1,
+    .r2 {
+        width: 100%;
+        grid-template-columns: repeat(2, 48%);
+        gap: 0.9rem;
+    }
+
+    .bmi-title {
+        font-size: 1.2rem;
+    }
+
+    .bmi-d {
+        font-size: 0.9rem;
+    }
+
+    .submit-button {
+        width: 60%;
+    }
 
 
-/* ---------------Meet Our team section Ends---------------- */
+    /* -------------------Bmi Calc section Ends------------------------ */
+
+    /* ----------------------Membership Challenge Sec starts---------------- */
+
+    .ch-plan-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ch-2-title {
+        font-size: 2.5rem;
+    }
+
+    .plan-btn1,
+    .plan-btn3 {
+        font-size: 0.8rem;
+    }
+
+    /* ----------------------Membership Challenge Sec Ends---------------- */
+
+    /* ---------------Meet Our team section Starts---------------- */
+
+    .row1,
+    .row2 {
+        grid-template-columns: 1fr;
+    }
+
+    #team-title {
+        font-size: 2rem;
+    }
+
+    #team-des {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        width: 100%;
+    }
+
+    /* ---------------Meet Our team section Ends---------------- */
+
+    /* -------------------Footer Style Starts----------------- */
+    .parent-div {
+        flex-direction: column;
+    }
+
+    .start-des {
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .start-div {
+        width: 100%;
+    }
+
+    .start-title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+
+    }
+
+
+    .foot-note {
+        font-size: 1rem;
+        text-align: left;
+
+    }
+
+    .middle-links {
+        font-size: 1rem;
+    }
+
+    .middle-title {
+        font-size: 1.8rem;
+        margin-bottom: 1.7rem;
+    }
 
 
 
-/* Responsive Design Ends--------------------------- */
+
+    /* -------------------Footer Style Ends----------------- */
+
+    /* Responsive Design Ends--------------------------- */
 }
