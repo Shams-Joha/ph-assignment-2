@@ -74,6 +74,9 @@ main {
     margin-left: 0px;
 
 }
+.hamburger{
+    display: none;
+}
 
 /* --------------------------------nav style ends--------------------------- */
 
@@ -144,10 +147,11 @@ main {
     font-weight: 500;
 }
 
-.btn-join:hover{
+.btn-join:hover {
     cursor: pointer;
 }
-.btn-down:hover{
+
+.btn-down:hover {
     cursor: pointer;
 }
 
@@ -344,7 +348,7 @@ main {
     align-items: center;
 }
 
-.bmi-ban-con{
+.bmi-ban-con {
     margin-right: 19rem;
 }
 
@@ -360,95 +364,115 @@ main {
     font-size: 1.2rem;
     line-height: 2rem;
 }
+
 /* Banner Style Ends */
 
-.challenge{
+.challenge {
     background: rgb(34, 34, 34);
     font-family: inter;
     height: 550px;
 }
-.bmi-title{
+
+.bmi-title {
     color: white;
     font-size: 2rem;
     margin-top: 40px;
     margin-bottom: 20px;
 }
-.bmi-table th{
+
+.bmi-table th {
     color: white;
 }
-td{
+
+td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
 }
-.bmi-table{
+
+.bmi-table {
     width: 100%;
     height: 14rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: left;
     border-collapse: collapse;
     margin-top: 50px;
-    
+
 }
-td, th{
+
+td,
+th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding-left: 20px;
 }
-.bmi-calc{
+
+.bmi-calc {
     display: flex;
     justify-content: space-around;
 }
-.bmi-d{
+
+.bmi-d {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.3rem;
     margin-bottom: 40px;
 }
-.chart{
+
+.chart {
     width: 25%;
 }
-input, select{
+
+input,
+select {
     background-color: rgba(255, 255, 255, 0.158);
     border: 0;
     height: 3.5rem;
     border-radius: 0.5rem;
     padding: 0 1.25rem;
 }
-.bmi-form{
+
+.bmi-form {
     width: 100%;
 }
-.calc{
+
+.calc {
     width: 40%;
 }
-.r1, .r2{
+
+.r1,
+.r2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin-bottom: 1rem;
 }
-.r3{
+
+.r3 {
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 3rem;
 }
-input::placeholder{
+
+input::placeholder {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
 
-select{
+select {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
 }
-select option{
+
+select option {
     color: rgba(255, 255, 255, 0.5);
     background-color: rgba(0, 255, 213, 0.384);
     color: darkblue;
     font-weight: bold;
 }
 
-select:hover{
+select:hover {
     cursor: pointer;
 }
 
@@ -456,7 +480,7 @@ select:hover{
 /* -----------------------BMI Style Ends--------------------------------- */
 
 /* --------------------Challenge-2 Section Design Starts------------------------- */
-.challenge-2{
+.challenge-2 {
     background-image: url(../images/gymback.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -471,30 +495,37 @@ select:hover{
     flex-direction: column;
     padding: 1rem;
 }
-.ch-2-title{
+
+.ch-2-title {
     color: white;
     font-size: 3.3rem;
     font-weight: 500;
     margin-top: 3rem;
     margin-bottom: 1rem;
     padding-left: 1rem;
-    
+
 }
-.ch-2-des{
+
+.ch-2-des {
     color: white;
     font-size: 1.5rem;
     margin-bottom: 3rem;
     padding-left: 1.3rem;
 }
-#offer{
+
+#offer {
     color: greenyellow;
     font-weight: bold;
 }
-#plan-list{
+
+#plan-list {
     padding-left: 2rem;
 }
 
-.silver, .gold, .diamond, .platinum{
+.silver,
+.gold,
+.diamond,
+.platinum {
     background: rgba(135, 255, 193, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -506,51 +537,63 @@ select:hover{
     box-shadow: 0 10px 10px rgb(61, 24, 40);
     transition: 1s;
 }
-.gold, .diamond, .platinum{
+
+.gold,
+.diamond,
+.platinum {
     background: rgba(255, 255, 255, 0.1);
 }
-.gold:hover{
+
+.gold:hover {
     box-shadow: 0 18px 40px goldenrod;
 }
-.silver:hover{
+
+.silver:hover {
     box-shadow: 0 18px 40px rgba(82, 212, 82, 0.911);
 }
-.diamond:hover{
+
+.diamond:hover {
     box-shadow: 0 18px 40px rgba(39, 190, 240, 0.904);
 }
-.platinum:hover{
+
+.platinum:hover {
     box-shadow: 0 18px 40px rgba(229, 228, 226, 0.911);
 }
 
-.plan-t{
+.plan-t {
     color: white;
     font-size: 1.7rem;
     margin-top: 1.5rem;
     margin-bottom: 1.2rem;
 }
-.plan-d{
+
+.plan-d {
     color: white;
     font-size: 1rem;
     font-weight: 200;
     width: 80%;
     margin-bottom: 1rem;
 }
-#plan-list{
+
+#plan-list {
     color: white;
-    list-style-type:circle;
+    list-style-type: circle;
     margin-bottom: 1rem;
-    
+
 }
-.p-list-content{
+
+.p-list-content {
     line-height: 2rem;
 }
-.plan-price{
+
+.plan-price {
     color: white;
     font-size: 1.7rem;
     margin-top: 1.5rem;
     margin-bottom: 1.3rem;
 }
-.plan-btn1{
+
+.plan-btn1 {
     color: black;
     font-size: 1rem;
     font-weight: bolder;
@@ -560,7 +603,8 @@ select:hover{
     border: 0;
     border-radius: 30px;
 }
-.plan-btn3{
+
+.plan-btn3 {
     color: white;
     font-size: 1rem;
     font-weight: bolder;
@@ -571,17 +615,16 @@ select:hover{
     border-radius: 30px;
     border: 3px solid white;
 }
-.plan-btn1:hover{
+
+.plan-btn1:hover {
     cursor: pointer;
 }
-.plan-btn3:hover{
+
+.plan-btn3:hover {
     cursor: pointer;
 }
 
-
-
-
-.ch-plan-container{
+.ch-plan-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
@@ -589,31 +632,6 @@ select:hover{
     padding-right: 1rem;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ---------- ----------Challenge-2 Section Design Ends------------------------- */
@@ -764,3 +782,42 @@ hr {
 
 
 /* -----------------Footer Design Ends------------------------------------- */
+
+/* Responsive Design Starts--------------------------- */
+
+@media screen and (max-width:576px) {
+
+    .challenge-2,
+    .meet-our-team,
+    .footer-container,
+    .challenge,
+    .run-extra-mile,
+    .habit-container,
+    .bmi-banner {
+        display: none;
+    }
+    .nav-links-container{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    .nav-container{
+        margin: 0 auto;
+    }
+    .brand-name{
+        font-size: 1.8rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Design Ends--------------------------- */
